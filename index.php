@@ -344,20 +344,7 @@
 
 								<div class="row">
 									<div class="col-lg-12" style="display:block; font-family: &quot;Kelly Slab&quot;">
-										<?php
-										                                                  $servername = "localhost";
-										                                                  $username = "username";
-										                                                  $password = "password";
-
-										                                                  // Create connection
-										                                                  $conn = new mysqli($servername, $username, $password);
-
-										                                                  // Check connection
-										                                                  if ($conn->connect_error) {
-										                                                      die("Connection failed: " . $conn->connect_error);
-										                                                  }
-										                                                  echo "<p>Connected successfully</p>";
-										                                          ?>
+										
 									</div>
 								</div>
 							</div>
@@ -450,34 +437,6 @@
 	<script src="js/bootstrap.min.js" type="text/javascript">
 	</script>
 	<script src="js/tools.js">
-	</script> <?php
-	                                                    if(isset($_POST['submit'])) {
-	                                                        $name = $_POST['username'];
-	                                                        $email = $_POST['email'];
-	                                                        $phone = $_POST['phone'];
-	                                                        $message = $_POST['message'];
-	                                                        $mymail = "customersupport@zulumoving.com";
-	                                                        $to      = $mymail;
-	                                                        $source = $_POST['from'];
-	                                                            $destination = $_POST['to'];
-	                                                        $subject = 'New Moving request';
-	                                                        $detail = $_POST['detail'];
-	                                                        $body = "Hello,".$name." has a moving request for you. His phone number is ".$phone.". His email is ".$email.". The following is his request ".$detail.".Source:".$source.", Destination: ".$destination.".";
-	                                                        $headers = 'From: '.$email.'\r\n'.
-	                                                                    'Reply-To: '.$mymail.'\r\n'.
-	                                                                    'X-Mailer: PHP/'. phpversion();
-	                                                        $_POST = array();
-	                                                        if(mail($to, $subject, $body, $headers))
-	                                                        {
-	                                                        echo "<script type='text/javascript'>alert('Request submitted.')</script>";
-
-	                                                        }
-	                                                        else{
-	                                                            echo "<script type='text/javascript'>alert('Request not submitted. Please check details and try again!')</script>";
-	                                                            }
-
-	                                                    }
-
-	                                            ?>
+	</script>
 </body>
 </html>
