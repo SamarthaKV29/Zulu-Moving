@@ -7,6 +7,12 @@ function pg_connection_string_from_database_url() {
 try{
     $pg_conn = pg_connect(pg_connection_string_from_database_url());
     echo "Access";
+    $result = pg_query($pg_conn, "SELECT emailid FROM testimonials");
+    echo "<ul>";
+    foreach ($result as $row){
+        echo "<li> $row </li>";
+    }
+    echo "</ul>";
 }
 catch(Exception $e){
     echo "Unable to access our Database.";
