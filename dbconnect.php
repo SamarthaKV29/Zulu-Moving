@@ -13,7 +13,19 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
                )
 );
 
+$app->get('/db/', function() use($app) {
+    $st = $app['pdo']->prepare('SELECT name FROM testimonials');
+    $st->execute();
+    $names = array();
+    while ($row = $st->fetch(PDO::FETCH_ASSOC)) {
+    $app['monolog']->addDebug('Row ' . $row['name']);
+    $names[] = $row;
+    }
 
+    return $app['twig']->render('database.twig', array(
+    'names' => $names
+    ));
+});
 
 
 
