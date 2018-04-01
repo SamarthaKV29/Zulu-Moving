@@ -45,7 +45,7 @@ if($conn->mysql_query("USE zulu")){
     echo "Using zulu";
 }
 if($conn->mysql_query("CREATE TABLE testimonials")){
-    echo "Using zulu";
+    echo "table test";
 }
 
 
