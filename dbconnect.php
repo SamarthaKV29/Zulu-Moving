@@ -37,17 +37,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "CREATE DATABASE zulu";
-if($conn->mysql_query($sql)){
-    echo "Created";
-}
-if($conn->mysql_query("USE zulu")){
-    echo "Using zulu";
-}
-if($conn->mysql_query("CREATE TABLE testimonials")){
-    echo "table test";
-}
-
+$RES = $conn->mysql_query("SHOW DATABASES")
+echo $RES;
 
 
 
