@@ -12,3 +12,10 @@ header{
     background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.panel-heading{
+  padding: 2px;
+}
+.panel-body{
+  padding: 5px;
+
+}
