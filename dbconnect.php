@@ -14,19 +14,30 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
 );
 
 $app->get('/db/', function() use($app) {
-    $st = $app['pdo']->prepare('SELECT name FROM testimonials');
+    $st = $app['pdo']->prepare('SELECT EMAILID FROM testimonials');
     $st->execute();
     $names = array();
     while ($row = $st->fetch(PDO::FETCH_ASSOC)) {
-    $app['monolog']->addDebug('Row ' . $row['name']);
-    $names[] = $row;
+    $app['monolog']->addDebug('Row ' . $row['EMAIL']);
+    $EMAILS[] = $row;
     }
 
     return $app['twig']->render('database.twig', array(
-    'names' => $names
+    'EMAILS' => $EMAILS
     ));
 });
 
+$con = "dbname=fgsfg10pdq host=ghfghfh4654.amazonaws.com port=5432 user=gafasduyiu password=435346af8493196 sslmode=require";
+
+
+if (!$con) 
+{
+  echo "Database connection failed.";
+}
+else 
+{
+  echo "Database connection success.";
+}
 
 
 ?>
