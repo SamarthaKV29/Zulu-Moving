@@ -12,12 +12,7 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
                    )
                )
 );
-if($app->mysqli_execute("CREATE TABLE testimonials")){
-    echo "Created."
-}
-else{
-    echo "Exists."
-}
+
 $app->get('/db/', function() use($app) {
     $st = $app['pdo']->prepare('SELECT name FROM testimonials');
     $st->execute();
