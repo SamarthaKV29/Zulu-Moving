@@ -344,7 +344,11 @@
 
 								<div class="row">
 									<div class="col-lg-12" style="display:block; font-family: &quot;Kelly Slab&quot;">
-										Hello
+										<?php 
+											require("dbconnect.php")
+
+
+										?>
 									</div>
 								</div>
 							</div>
