@@ -27,17 +27,6 @@ $app->get('/db/', function() use($app) {
     ));
 });
 
-$con = "dbname=fgsfg10pdq host=ghfghfh4654.amazonaws.com port=5432 user=gafasduyiu password=435346af8493196 sslmode=require";
-
-
-if (!$con) 
-{
-  echo "Database connection failed.";
-}
-else 
-{
-  echo "Database connection success.";
-}
 
 
 ?>
