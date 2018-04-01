@@ -24,14 +24,6 @@
 
 	<script language="javascript" type="text/javascript">
 	</script>
-	<style>
-		.panel-heading{
-			padding: 2px;
-			}
-		.panel-body{
-			padding: 5px;
-		}
-	</style>
 </head>
 
 <body class="row" style="background-attachment: fixed;background-position: center;background-color:rgba(0, 0, 0, 0.7);background-image: linear-gradient(to bottom, #bdc3c7 0%, #ecf0f1 100%), url('img/lclmv.jpg'); background-blend-mode:multiply;">
