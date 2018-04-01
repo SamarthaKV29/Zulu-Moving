@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<?php require('../vendor/autoload.php'); ?>
 <html lang="en">
 <head>
 	<title>Zulu Moving Company</title>
