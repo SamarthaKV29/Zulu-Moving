@@ -1,4 +1,4 @@
-$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
+<?php $cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server   = $cleardb_url["host"];
 $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
@@ -29,3 +29,5 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
+
+?>
