@@ -8,6 +8,12 @@ try{
     $pg_conn = pg_connect(pg_connection_string_from_database_url());
     echo "Access";
     $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
+    while ($row = mysql_fetch_assoc($result)) {
+        echo "<ul>";
+        echo $row["userid"];
+        echo $row["review"];
+        echo "</ul>";
+    }
     echo $result;
     if($result)
     {
