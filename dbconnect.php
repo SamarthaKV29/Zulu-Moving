@@ -7,7 +7,7 @@ function pg_connection_string_from_database_url() {
 try{
     $pg_conn = pg_connect(pg_connection_string_from_database_url());
     echo "Access";
-    $result = pg_query($pg_conn, "SELECT emailid FROM testimonials");
+    $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
     echo $result;
     if($result)
     {
