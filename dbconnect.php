@@ -10,8 +10,8 @@ try{
     echo "<div class='row text-center pagination-centered'><div class='text-center pagination-centered'><ul>";
     while ($row = pg_fetch_assoc($result)) {
         echo "<li class='text-info'>";
-        echo "<div class='panel panel-info'><div class='panel-heading'>".$row["emailid"]."</div>";
-        echo "<div class='panel-body'>".$row["review"]."</div>";
+        echo "<div class='panel panel-info'><div class='panel-heading padding'>".$row["emailid"]."</div>";
+        echo "<div class='panel-body padding'>".$row["review"]."</div>";
         echo "</li>";
     }
     echo "</ul></div></div><hr>";
