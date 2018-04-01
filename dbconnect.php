@@ -7,7 +7,7 @@ function pg_connection_string_from_database_url() {
 try{
     $pg_conn = pg_connect(pg_connection_string_from_database_url());
     $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
-    echo "<div class='row text-center pagination-centered' style='padding: 2px; width:100% !important;'><div class='text-center pagination-centered col-md-6 center-block' style='text-align: center; margin: auto;'><ul>";
+    echo "<div class='row text-center pagination-centered'><div class='text-center pagination-centered col-md-6 center-block' style='text-align: center; margin: auto;'><ul>";
     while ($row = pg_fetch_assoc($result)) {
         echo "<li class='text-info'>";
         echo "<div class='panel panel-info'><div class='panel-heading'>".$row["emailid"]."</div>";
