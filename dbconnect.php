@@ -31,6 +31,25 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
-print "<span>$cleardb_username</span>"
+$conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "CREATE DATABASE zulu";
+if($conn->mysql_query($sql)){
+    echo "Created";
+}
+if($conn->mysql_query("USE zulu")){
+    echo "Using zulu";
+}
+if($conn->mysql_query("CREATE TABLE testimonials")){
+    echo "Using zulu";
+}
+
+
+
+
 
 ?>
