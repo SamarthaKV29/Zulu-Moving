@@ -10,7 +10,7 @@ try{
     echo "<div class='row'><div class='col-md-6 center'><ul>";
     while ($row = pg_fetch_assoc($result)) {
         echo "<li class='text-success'>";
-        echo "<div class='panel panel default'><div class='panel-heading'>"."User:".$row["emailid"]."</div>";
+        echo "<div class='panel panel-default'><div class='panel-heading'>"."User:".$row["emailid"]."</div>";
         echo "<div class='panel-body'>".$row["review"]."</div>";
         echo "</li>";
     }
