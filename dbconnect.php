@@ -6,23 +6,15 @@ function pg_connection_string_from_database_url() {
  
 try{
     $pg_conn = pg_connect(pg_connection_string_from_database_url());
-    echo "Access";
     $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
+    echo "<ul>";
     while ($row = pg_fetch_assoc($result)) {
-        echo "<ul>";
-        echo $row["userid"];
+        echo "<li class='text-success'>";
+        echo "User:".$row["emailid"]."<br>";
         echo $row["review"];
-        echo "</ul>";
+        echo "</li>";
     }
-    echo $result;
-    if($result)
-    {
-        echo "<ul>";
-        foreach ($result as $row){
-            echo "<li> $row </li>";
-        }
-        echo "</ul>";
-    }
+    echo "</ul>";
 }
 catch(Exception $e){
     echo "Unable to access our Database.";
