@@ -24,7 +24,7 @@ function getData(){
 
 function dispForm(){
     echo '
-    <div class="col-md-6">
+    <div class="col">
     <div class="panel panel-default">
         <div class="panel panel-heading">
             Leave a Review!

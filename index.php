@@ -335,7 +335,7 @@
 
 					<div class="tab-pane fade" id="testimonials">
 						<div class="row">
-							<div class="col-md-6" style="font-family: &quot;Kelly Slab&quot;">
+							<div class="col" style="font-family: &quot;Kelly Slab&quot;">
 								<h3 class="text-center" style="font-size:20px"><i class="fa fa-star fa-3x"></i><br>
 								Testimonials</h3>
 
@@ -343,7 +343,7 @@
 
 
 								<div class="row">
-									<div class="col-md-6 pagination-center" style="display:block; font-family: &quot;Kelly Slab&quot;">
+									<div class="col" style="display:block; font-family: &quot;Kelly Slab&quot;">
 										<?php require_once("dbconnect.php") ?>
 										<?php getData() ?>
 										<?php dispForm() ?>
