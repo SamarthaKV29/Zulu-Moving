@@ -24,32 +24,28 @@ function getData(){
 
 function dispForm(){
     echo '
-    <div class="row">
-        <div class="col-md-6">
-        <div class="panel panel-default">
-            <div class="panel panel-heading">
-                Leave a Review!
-            </div>
-            <div class="panel-content">
-                <form action="" method="POST">
-                    <div class="form-group">
-                    <label> EmailID </label>
-                    <input class="form-control" type="email" name="emailid" placeholder="Enter your email address!"/>
-                    </div>
-                    <div class="form-group">
-                    
-                    <label> Testimonial </label>
-                    <input class="form-control" name="review" placeholder="Great people! or Good service!"/> 
-                    
-                    </div>
-                    <input type="submit" value="Submit"/>
-                </form>
-            </div>
+    <div class="col-md-6">
+    <div class="panel panel-default">
+        <div class="panel panel-heading">
+            Leave a Review!
         </div>
+        <div class="panel-content">
+            <form action="" method="POST">
+                <div class="form-group">
+                <label> EmailID </label>
+                <input class="form-control" type="email" name="emailid" placeholder="Enter your email address!"/>
+                </div>
+                <div class="form-group">
+                
+                <label> Testimonial </label>
+                <input class="form-control" name="review" placeholder="Great people! or Good service!"/> 
+                
+                </div>
+                <input type="submit" value="Submit"/>
+            </form>
         </div>
     </div>
-    
-    
+    </div>
     
     ';
 
