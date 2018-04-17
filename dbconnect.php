@@ -38,7 +38,7 @@ function dispForm(){
                 <div class="form-group">
                 
                 <label> Testimonial </label>
-                <input class="form-control" name="review" placeholder="Great people! or Good service!"/> 
+                <input class="form-control" name="review" maxlength="30" placeholder="Great people! or Good service!"/> 
                 
                 </div>
                 <input type="submit" value="Submit"/>
