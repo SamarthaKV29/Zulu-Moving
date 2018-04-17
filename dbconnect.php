@@ -49,7 +49,7 @@ function dispForm(){
     
     ';
     if (isset($success)){
-        echo 'Added successfully';
+        echo '<script>alert("Successfully added");</script>';
     }
 }
 
