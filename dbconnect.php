@@ -11,7 +11,7 @@ function getData(){
         echo "<div class='col text-center pagination-centered '><ul>";
         while ($row = pg_fetch_assoc($result)) {
             echo "<li class='text-info'>";
-            echo "<div class='panel panel-info'><div class='panel-heading py-5'><i class='fa fa-user'></i><h2>".$row["emailid"]."</hr></div>";
+            echo "<div class='panel panel-info'><div class='panel-heading py-5'><h2><i class='fa fa-user'></i>".$row["emailid"]."</hr></div>";
             echo "<div class='panel-body py-5'>".$row["review"]."</div>";
             echo "</li>";
         }
