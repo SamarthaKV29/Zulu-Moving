@@ -34,7 +34,7 @@ function dispForm(){
                 <form action="" method="POST">
                     <div class="form-group">
                     <label> EmailID </label>
-                    <input class="form-control" type="email" name="emailid" placeholder="Enter your emailID"/>
+                    <input class="form-control" type="email" name="emailid" placeholder="Enter your email address!"/>
                     </div>
                     <div class="form-group">
                     
@@ -42,7 +42,7 @@ function dispForm(){
                     <input class="form-control" name="review" placeholder="Great people! or Good service!"/> 
                     
                     </div>
-
+                    <input type="submit" value="Submit"/>
                 </form>
             </div>
         </div>
