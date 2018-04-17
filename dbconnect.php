@@ -25,8 +25,8 @@ function getData(){
 function dispForm(){
     echo '
     <form action="" method="POST">
-        <li><input /></li>
-
+        <li>EmailID: <input type="email" name="name"/></li>
+        <li>Testimonial: </li>
 
     </form>
     
