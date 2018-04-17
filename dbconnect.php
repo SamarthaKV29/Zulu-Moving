@@ -8,7 +8,7 @@ function getData(){
     try{
         $pg_conn = pg_connect(pg_connection_string_from_database_url());
         $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
-        echo "<div class='row text-center pagination-centered m-1'><div class='text-center pagination-centered'><ul>";
+        echo "<div class='row text-center pagination-centered m-1'><div class='col-md-4 text-center pagination-centered'><ul>";
         while ($row = pg_fetch_assoc($result)) {
             echo "<li class='text-info'>";
             echo "<div class='panel panel-info'><div class='panel-heading py-5'><h2>".$row["emailid"]."</hr></div>";
@@ -20,6 +20,19 @@ function getData(){
     catch(Exception $e){
         echo "Unable to access our Database.";
     }
+}
+
+function dispForm(){
+    echo '
+    <form action="" method="POST">
+        <li><input /></li>
+
+
+    </form>
+    
+    
+    ';
+
 }
 
 ?>
