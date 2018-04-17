@@ -34,12 +34,12 @@ function dispForm(){
                 <form action="" method="POST">
                     <div class="form-group">
                     <label> EmailID </label>
-                    <input type="email" name="name" placeholder="Enter your emailID"/>
+                    <input class="form-control" type="email" name="emailid" placeholder="Enter your emailID"/>
                     </div>
                     <div class="form-group">
                     
                     <label> Testimonial </label>
-                    <input name="review" placeholder="Great people! or Good service!"/> 
+                    <input class="form-control" name="review" placeholder="Great people! or Good service!"/> 
                     
                     </div>
 
