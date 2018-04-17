@@ -22,26 +22,4 @@ function getData(){
     }
 }
 
-function sendData(){
-    echo '
-    <form name="insert" action="insert.php" method="POST" >
-        <li>Book ID:</li><li><input type="text" name="bookid" /></li>
-        <li>Book Name:</li><li><input type="text" name="book_name" /></li>
-        <li>Author:</li><li><input type="text" name="author" /></li>
-        <li>Publisher:</li><li><input type="text" name="publisher" /></li>
-        <li>Date of publication:</li><li><input type="text" name="dop" /></li>
-        <li>Price (USD):</li><li><input type="text" name="price" /></li>
-        <li><input type="submit" /></li>
-    </form>
-    ';
-    
-    try{
-        $pg_conn = pg_connect(pg_connection_string_from_database_url());
-        $result = pg_query($pg_conn, "SELECT * FROM testimonials;");
-
-    }
-    catch(Exception $e){
-        echo "Unable to create new Testimonial, sorry!"
-    }
-}
 ?>
