@@ -18,7 +18,7 @@ function getData(){
         echo "</ul></div></div><hr>";
     }
     catch(Exception $e){
-        echo "Unable to access our Database.";
+        echo "<i class='fa fa-exclamation-triangle'></i>Unable to access our Database.";
     }
 }
 
