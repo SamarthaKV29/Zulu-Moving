@@ -55,7 +55,7 @@
 
 
 					<li class="page-scroll">
-						<a class="phoneno" href="tel:1-978-###-####"><i class='fa fa-mobile'></i>Phone:978-###-####</a>
+						<a class="phoneno" href="tel:1-978-###-####"><i class='fa fa-mobile fa-2x'></i>978-###-####</a>
 					</li>
 				</ul>
 			</div>
@@ -71,7 +71,7 @@
 			<div class="col-md-12">
 				<ul class="nav nav-pills nav-justified ztabs" style="background-color:#bdc3c7;">
 					<li class="active">
-						<a data-toggle="tab" href="#home"><i class='fa fa-people-carry'></i> Home</a>
+						<a data-toggle="tab" href="#home"><i class='fa fa-archive'></i> Home</a>
 					</li>
 
 
