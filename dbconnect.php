@@ -24,11 +24,16 @@ function getData(){
 
 function dispForm(){
     echo '
-    <form action="" method="POST">
-        <li>EmailID: <input type="email" name="name"/></li>
-        <li>Testimonial: <input name="review"/> </li>
+    <div class="row">
+        <div class="col-md-6">
+            <form action="" method="POST">
+                <li>EmailID: <input type="email" name="name"/></li>
+                <li>Testimonial: <input name="review"/> </li>
 
-    </form>
+            </form>
+        </div>
+    </div>
+    
     
     
     ';
