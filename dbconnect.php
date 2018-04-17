@@ -30,7 +30,7 @@ function dispForm(){
             Leave a Review!
         </div>
         <div class="panel-content">
-            <form action="" method="POST">
+            <form action="" method="POST" style="color: black !important;">
                 <div class="form-group">
                 <label> EmailID </label>
                 <input class="form-control" type="email" name="emailid" placeholder="Enter your email address!"/>
