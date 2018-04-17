@@ -26,11 +26,18 @@ function dispForm(){
     echo '
     <div class="row">
         <div class="col-md-6">
-            <form action="" method="POST">
-                <li>EmailID: <input type="email" name="name"/></li>
-                <li>Testimonial: <input name="review"/> </li>
+        <div class="panel panel-default">
+            <div class="panel panel-heading">
+                Leave a Review!
+            </div>
+            <div class="panel-content">
+                <form action="" method="POST">
+                    <li>EmailID: <input type="email" name="name"/></li>
+                    <li>Testimonial: <input name="review"/> </li>
 
-            </form>
+                </form>
+            </div>
+        </div>
         </div>
     </div>
     
