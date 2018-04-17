@@ -76,27 +76,27 @@
 
 
 					<li>
-						<a data-toggle="tab" href="#homes">For Homes</a>
+						<a data-toggle="tab" href="#homes"><i class="fa fa-home"></i> For Homes</a>
 					</li>
 
 
 					<li>
-						<a data-toggle="tab" href="#business">For Businesses</a>
+						<a data-toggle="tab" href="#business"><i class="fa fa-briefcase"></i> For Businesses</a>
 					</li>
 
 
 					<li>
-						<a data-toggle="tab" href="#request">Contact Us</a>
+						<a data-toggle="tab" href="#request"><i class="fa fa-phone"></i> Contact Us</a>
 					</li>
 
 
 					<li>
-						<a data-toggle="tab" href="#pricing">Pricing</a>
+						<a data-toggle="tab" href="#pricing"><i class="fa fa-dollar-sign"></i> Pricing</a>
 					</li>
 
 
 					<li>
-						<a data-toggle="tab" href="#testimonials">Testimonials</a>
+						<a data-toggle="tab" href="#testimonials"><i class="fa fa-star"></i> Testimonials</a>
 					</li>
 				</ul>
 
