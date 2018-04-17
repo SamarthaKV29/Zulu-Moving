@@ -346,7 +346,7 @@
 									<div class="col-lg-12" style="display:block; font-family: &quot;Kelly Slab&quot;">
 										<?php require_once("dbconnect.php") ?>
 										<?php getData() ?>
-										
+										<?php dispForm() ?>
 									</div>
 								</div>
 							</div>
