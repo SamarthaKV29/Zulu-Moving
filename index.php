@@ -91,7 +91,7 @@
 
 
 					<li>
-						<a data-toggle="tab" href="#pricing"><i class="fa fa-dollar-sign"></i> Pricing</a>
+						<a data-toggle="tab" href="#pricing"><i class="fa fa-money"></i> Pricing</a>
 					</li>
 
 
