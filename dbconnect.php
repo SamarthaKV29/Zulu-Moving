@@ -32,8 +32,16 @@ function dispForm(){
             </div>
             <div class="panel-content">
                 <form action="" method="POST">
-                    <li>EmailID: <input type="email" name="name"/></li>
-                    <li>Testimonial: <input name="review"/> </li>
+                    <div class="form-group">
+                    <label> EmailID </label>
+                    <input type="email" name="name" placeholder="Enter your emailID"/>
+                    </div>
+                    <div class="form-group">
+                    
+                    <label> Testimonial </label>
+                    <input name="review" placeholder="Great people! or Good service!"/> 
+                    
+                    </div>
 
                 </form>
             </div>
