@@ -48,7 +48,19 @@ function dispForm(){
     </div>
     
     ';
-
+    if (isset($success)){
+        echo 'Added successfully';
+    }
 }
 
+if(isset($_POST["emailid"]) && isset($_POST["review"])){
+    try{
+        $pg_conn = pg_connect(pg_connection_string_from_database_url());
+        $res = pg_query("INSERT INTO testimonials (emailid, review) VALUES ('".$_POST['emailid']."' ,'".$_POST['review']."')");
+
+    }
+    catch(Exception $e){
+        echo "Unable to access our Database.";
+    }
+}
 ?>
