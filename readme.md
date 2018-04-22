@@ -1,5 +1,5 @@
 ## Zulu Moving website
-#### **_Web_**: https://zulumovestage.herokuapp.com
+#### **_Demo Link_**: https://zulumovestage.herokuapp.com
 
 ### Author
 Samartha K V
