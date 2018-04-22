@@ -4,7 +4,7 @@
 ### Author
 Samartha K V
 #### Profile
-https://personal-portfolio-samarth.herokuapp.com
+https://samarthakv29.github.io
 
 
 #### Description
