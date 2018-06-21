@@ -23,7 +23,18 @@
     <![endif]-->
 
 	<script language="javascript" type="text/javascript">
+		
 	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116955144-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116955144-2');
+</script>
+
 </head>
 
 <body class="row" style="background-attachment: fixed;background-position: center;background-color:rgba(0, 0, 0, 0.7);background-image: linear-gradient(to bottom, #bdc3c7 0%, #ecf0f1 100%), url('img/lclmv.jpg'); background-blend-mode:multiply;">
@@ -55,7 +66,7 @@
 
 
 					<li class="page-scroll">
-						<a class="phoneno" href="tel:1-978-###-####"><i class='fa fa-mobile fa-2x'></i>978-###-####</a>
+						<a class="phoneno" href="tel:1-978-230-9666"><i class='fa fa-mobile fa-2x'></i>978-230-9666</a>
 					</li>
 				</ul>
 			</div>
