@@ -2,454 +2,353 @@
 
 <html lang="en">
 <head>
-	<title>Zulu Moving Company</title>
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
-	<meta content="Website for Zulu Moving" name="description">
-	<link href="img/logo.ico" rel="shortcut icon" type="image/x-icon">
-	<meta content="RightApps" name="author">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/styler.css" rel="stylesheet">
-	<link href="css/reset.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesnt work if you view the page via file:// !-->
-	<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <title>Zulu Moving Company</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <meta content="Website for Zulu Moving" name="description">
+    <meta content="RightApps" name="author"><!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet"><!-- Custom fontss -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesnt work if you view the page via file:// !-->
 
-    <![endif]-->
-
-	<script language="javascript" type="text/javascript">
-		
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116955144-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-116955144-2');
-</script>
-
+    <script language="javascript" type="text/javascript">
+    </script>
 </head>
 
-<body class="row" style="background-attachment: fixed;background-position: center;background-color:rgba(0, 0, 0, 0.7);background-image: linear-gradient(to bottom, #bdc3c7 0%, #ecf0f1 100%), url('img/lclmv.jpg'); background-blend-mode:multiply;">
-	<!-- header -->
+<body>
+    <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-81897421-1', 'auto');
+            ga('send', 'pageview');
+            
+            
+    </script>
 
+    <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 100px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
 
-	<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 10%">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
 
+            <div class="navbar-header page-scroll">
+                <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" style="background-color: black;" type="button"><span class="sr-only">Nav</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#page-top">
+                <div class="img-responsive logo" onmouseout="$(this).removeClass('logoShine');" onmouseover="$(this).addClass('logoShine');">
+                </div>
 
-			<div class="navbar-header page-scroll">
-				<button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" style="background-color: black;" type="button"><span class="sr-only">Nav</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#page-top">
-				<div class="img-responsive logo" onmouseout="$(this).removeClass('logoShine');" onmouseover="$(this).addClass('logoShine');">
-				</div>
 
+                <div class="logotxt">
+                    Zulu Moving Company
+                </div></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
 
-				<div class="logotxt">
-					Zulu Moving Company
-				</div></a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
 
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                    </li>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden">
-					</li>
 
+                    <li class="page-scroll">
+                        <a href="#aboutus">About Us</a>
+                    </li>
 
-					<li class="page-scroll">
-						<a class="phoneno" href="tel:1-978-230-9666"><i class='fa fa-mobile fa-2x'></i>978-230-9666</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<!-- body content -->
 
+                    <li class="page-scroll">
+                        <a href="#contactus">Contact</a>
+                    </li>
 
-	<div class="container outer">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="nav nav-pills nav-justified ztabs" style="background-color:#bdc3c7;">
-					<li class="active">
-						<a data-toggle="tab" href="#home"><i class='fa fa-archive'></i> Home</a>
-					</li>
 
+                    <li class="page-scroll">
+                        <a class="phoneno" href="tel:1-978-847-8352">Phone:978-847-8352</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-					<li>
-						<a data-toggle="tab" href="#homes"><i class="fa fa-home"></i> For Homes</a>
-					</li>
 
+    <div class="carousel slide" data-ride="carousel" id="myCarousel">
+        <!-- Wrapper for slides -->
 
-					<li>
-						<a data-toggle="tab" href="#business"><i class="fa fa-briefcase"></i> For Businesses</a>
-					</li>
 
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img alt="Movers" class="c3" src="img/van.jpg">
 
-					<li>
-						<a data-toggle="tab" href="#request"><i class="fa fa-phone"></i> Contact Us</a>
-					</li>
+                <div class="carousel-caption">
+                    <h3 class="heading">We are there for you, everywhere!</h3>
 
 
-					<li>
-						<a data-toggle="tab" href="#pricing"><i class="fa fa-money"></i> Pricing</a>
-					</li>
+                    <p class="text">Across cities, fast, reliable and efficient! Request Quote now!</p>
+                </div>
+            </div>
 
 
-					<li>
-						<a data-toggle="tab" href="#testimonials"><i class="fa fa-star"></i> Testimonials</a>
-					</li>
-				</ul>
+            <div class="item">
+                <img alt="Package" class="c4" src="img/rsz_packing.jpg">
 
+                <div class="carousel-caption">
+                    <h3 class="heading">Handling and Packaging</h3>
 
-				<div class="tab-content">
-					<div class="tab-pane fade in active" id="home">
-						<div class="row">
-							<div class="col-lg-12" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-cogs fa-3x"></i><br>
-								Services</h3>
 
-								<hr>
+                    <p class="text">We secure your package, we bring the packaging materials too. Ease moving!</p>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class=
+            "sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel" role="button"><span aria-hidden="true" class=
+            "glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+        </div>
+    </div>
 
 
-								<div class="row text-justify" style="font-family: &quot;Kelly Slab&quot;">
-									<div class="col-lg-6" style="font-family: &quot;Kelly Slab&quot;">
-										<div class="text-center sub-headings" style="padding: 2%">
-											Specialities
-										</div>
+    <div class="row" id="aboutus" style="border-bottom: thick solid chocolate; border-top: thin solid chocolate; padding: 5%;">
+        <div class="text-center headings" style="font-family: &quot;Kelly Slab&quot;">
+            What We Do
+        </div>
 
 
-										<p style="line-height:1.6em;">Here at Zulu Moving Company we are dedicated in giving the best customer service possible. We treat your belonging as we would with our own. We are fully insured covering all possible damages, we understand somethings are invaluable we do our best to prevent damages from happening. we are experts at local, long distance, residential, office and piano moving.</p>
+        <div class="row text-justify" style="font-family: &quot;Kelly Slab&quot;">
+            <div class="col-xs-6" style="font-family: &quot;Kelly Slab&quot;">
+                <div class="text-center sub-headings" style="padding: 2%">
+                    Specialities
+                </div>
 
 
-										<p style="line-height:1.6em;">We are currently accepting local jobs in Massachusetts, Southern NH and all surrounding areas. We are known for our outstanding dedication and customer service competence. We are also accepting long distance jobs.</p>
-									</div>
+                <p>Here at Zulu Moving Company we are dedicated in giving the best customer service possible. We treat your belonging as we would with our own. We are fully insured covering all
+                possible damages, we understand somethings are invaluable we do our best to prevent damages from happening. we are experts at local, long distance, residential, office and piano
+                moving.</p>
 
 
-									<div class="col-lg-6">
-										<div class="text-center sub-headings" style="padding: 2%">
-											About
-										</div>
+                <p>We are currently accepting local jobs in Massachusetts, Southern NH and all surrounding areas. We are known for our outstanding dedication and customer service competence. We are
+                also accepting long distance jobs.</p>
+            </div>
 
 
-										<p style="line-height:1.6em;">Established in 2012. Zulu Moving Company offers top notch moving services. We are based out of Lowell, MA and have been in the moving business since 2012. We are licensed and Insured. Please feel free to contact us today we are your last minute moving experts. guaranteed same day service. give us a call and one of our representatives will gladly assist you</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+            <div class="col-xs-6">
+                <div class="text-center sub-headings" style="padding: 2%">
+                    About
+                </div>
 
 
-					<div class="tab-pane fade" id="homes">
-						<div class="row">
-							<div class="col-lg-12" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-home fa-3x"></i><br>
-								Personal</h3>
+                <p>Established in 2012. Zulu Moving Company offers top notch moving services. We are based out of Lowell, MA and have been in the moving business since 2012. We are licensed and
+                Insured. Please feel free to contact us today we are your last minute moving experts. guaranteed same day service. give us a call and one of our representatives will gladly assist
+                you</p>
+            </div>
+        </div>
+    </div>
 
-								<hr>
 
+    <div class="row" id="contactus" style="padding:10px;padding-right:7%;padding-left:7%;border-bottom: thick solid brown; border-top: thin solid brown;">
+        <div class="row">
+            <div class="text-center headings" style="font-family: &quot;Kelly Slab&quot;">
+                Request a Quote
+            </div>
 
-								<div class="row">
-									<div class="col-md-6">
-										<ul>
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Hassle Free</li>
 
+            <div class="col-xs-6 text-justify" style="font-family: &quot;Kelly Slab&quot;">
+                <form id="requestor" method="post" name="requestor" onsubmit="return validateForm(); sbmtScc();" style="font-family: &quot;Kelly Slab&quot;">
+                    <table class="table" id="ContactTable">
+                        <tr>
+                            <td>Name:</td>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Packing and unpacking services</li>
+                            <td><input name="username" placeholder="Enter your name" type="text">
+                            </td>
+                        </tr>
 
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Clean trucks with proper equipment</li>
+                        <tr>
+                            <td>Email:</td>
 
+                            <td><input name="email" placeholder="Enter your Email ID" type="text">
+                            </td>
+                        </tr>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Friendly Movers</li>
 
+                        <tr>
+                            <td>Phone:</td>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Much more!</li>
-										</ul>
-									</div>
+                            <td><input name="phone" placeholder="Enter your Phone No" type="text">
+                            </td>
+                        </tr>
 
 
-									<div class="col-md-6">
-										<p class="text-justify" style="line-height:1.6em;">We provide the ultimate service for families, we treat like our own. We work hard to satisfy the needs of all our customers. Any special request are always considered.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                        <tr>
+                            <td>Starting location:</td>
 
+                            <td><input name="from" placeholder="Enter source location" type="text">
+                            </td>
+                        </tr>
 
-					<div class="tab-pane fade" id="business">
-						<div class="row">
-							<div class="col-lg-12" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-briefcase fa-3x"></i><br>
-								Commercial</h3>
 
-								<hr>
+                        <tr>
+                            <td>Destination:</td>
 
+                            <td><input name="to" placeholder="Enter destination" type="text">
+                            </td>
+                        </tr>
 
-								<div class="row">
-									<div class="col-md-6">
-										<ul style="font-family: &quot;Kelly Slab&quot;">
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Professional offices</li>
 
+                        <tr>
+                            <td>Details:</td>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Retail stores</li>
+                            <td>
+                            <textarea cols="20" placeholder="Enter your query. Please be sure to include all the details. Example: 2 stairways/ long passage/ long hallway." rows="4"></textarea>
+                            </td>
+                        </tr>
 
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Educational institutions</li>
+                        <tr>
+                            <td>
+                            </td>
 
+                            <td><button id="btnSub" type="submit"><span>Submit</span></button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Nonprofit associations</li>
 
+            <div class="col-xs-6" style="display:block; font-family: &quot;Kelly Slab&quot;">
+                <table id="tblPrices" style="border:none">
+                    <tr>
+                        <td>2 Movers + Truck -</td>
 
-											<li class="text-success" style="display:block;margin:2px;"><i class="fa fa-check"></i> Much more!</li>
-										</ul>
-									</div>
+                        <td><strong>$95/hr</strong>
+                        </td>
+                    </tr>
 
 
-									<div class="col-md-6">
-										<p class="text-justify" style="line-height:1.6em;">We have serviced many commercial moves. We provide the right quote, and the right type of service. Our process is easy enough and we can provide any speciality services too. Call us now to find our more without any more delay!</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                    <tr>
+                        <td>3 Movers + Truck -</td>
 
+                        <td><strong>$115/hr</strong>
+                        </td>
+                    </tr>
 
-					<div class="tab-pane fade" id="request">
-						<div class="row">
-							<div class="col-lg-12" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-question fa-3x"></i><br>
-								Request a Quote Now</h3>
 
-								<hr>
+                    <tr>
+                        <td>4 Movers + Truck -</td>
 
+                        <td><strong>$125/hr</strong>
+                        </td>
+                    </tr>
 
-								<div class="row">
-									<div class="col-md-2">
-									</div>
 
+                    <tr>
+                        <td>Flat Rate</td>
 
-									<div class="col-md-8">
-										<form id="submit" method="post" name="submit">
-											<div class="form-group">
-												<label for="username">Name:</label> <input class="form-control" name="username" pattern="[A-Za-z ]*" placeholder="Enter your name" required="" type="text">
-											</div>
+                        <td><strong>$800</strong>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
 
 
-											<div class="form-group">
-												<label for="email">Email ID:</label> <input class="form-control" name="email" placeholder="Enter your Email ID" required="" type="email">
-											</div>
+    <div class="container" id="reviews" >
+        <h3 class="row text-center headings">Our Reviews</h3>
+        <div class=" col-xs-6"><div class="embed-responsive embed-responsive-16by9 row">
+        	<iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fashley.smallwood.31%2Fposts%2F10153990986414378%3A0&amp;" width="" height=""
+          class="c2" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+        
+        
+        </div><div class="embed-responsive embed-responsive-16by9 row">
+        	<iframe class="embed-responsive-item" class=" "src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fvant.kham%2Fposts%2F1071502119554880%3A1&amp;" width="" height="" class="c2"
+          scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+        
+        </div></div>
+        <div class="col-xs-6"><a href="http://bit.ly/2btuHca"><img class="img-responsive" src="img/reviews gogle.PNG"></a></div>
+        </div>
 
 
-											<div class="form-group">
-												<label for="phone">Phone:</label> <input class="form-control" maxlength="10" name="phone" placeholder="Enter your Phone No" required="" type="phone">
-											</div>
+    <div class="container text-center footer" style="font-family:'Kelly Slab'; font-weight:bold;">
+        <div class="footer-above container">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-xs-6">
+                        <ul class="lightTxt sub-headings">
+                            <li>
+                                <p>Hassan Bukenya</p>
+                            </li>
 
 
-											<div class="form-group">
-												<label for="from">Starting location:</label> <input class="form-control" name="from" placeholder="Enter source location" required="" type="text">
-											</div>
+                            <li>
+                                <p>Zulu Moving Comany</p>
+                            </li>
 
 
-											<div class="form-group">
-												<label for="to">Destination:</label> <input class="form-control" name="to" placeholder="Enter destination" required="" type="text">
-											</div>
+                            <li>
+                                <p>117 Durrent St</p>
+                            </li>
 
 
-											<div class="form-group">
-												<label for="detail">Details:</label>
+                            <li>
+                                <p>Lowell, MA 01854</p>
 
-												<textarea class="form-control" cols="20" name="detail" placeholder="Enter your query. Please be sure to include all the details. Example: 2 stairways/ long passage/ long hallway." required="" rows="3"></textarea>
-											</div>
 
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
 
-											<div class="form-group">
-												<button class="btn" name="submit" onmouseout="$(this).toggleClass('btn-success')" onmouseover="$(this).toggleClass('btn-success')" type="submit">Submit</button>
-											</div>
-										</form>
-									</div>
 
+                    <div class="footer-col col-xs-6">
+                        <h3 class="lightTxt">Check us out</h3>
+                        <br>
 
-									<div class="col-md-2">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 
+                        <ul class="list-inline">
+                            <li>
+                                <a class="btn-social btn-outline" href="https://www.facebook.com/zulumoving"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
 
-					<div class="tab-pane fade" id="pricing">
-						<div class="row">
-							<div class="col-lg-12" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-money fa-3x"></i><br>
-								Our Rates and Pricing</h3>
 
-								<hr>
+                            <li>
+                                <a class="btn-social btn-outline" href="https://plus.google.com/100400948126936096675"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-								<div class="row">
-									<div class="col-lg-6" style="display:block; font-family: &quot;Kelly Slab&quot;">
-										<table id="tblPrices" style="border:none">
-											<tr>
-												<td><span class="fa fa-bolt"></span> 2 Movers + Truck</td>
-
-												<td><strong><span class="fa fa-usd"></span> 100</strong>
-												</td>
-											</tr>
-
-
-											<tr>
-												<td><span class="fa fa-bolt"></span> 3 Movers + Truck</td>
-
-												<td><strong><span class="fa fa-usd"></span> 120</strong>
-												</td>
-											</tr>
-
-
-											<tr>
-												<td><span class="fa fa-bolt"></span> 4 Movers + Truck</td>
-
-												<td><strong><span class="fa fa-usd"></span> 125</strong>
-												</td>
-											</tr>
-
-
-											<tr>
-												<td><span class="fa fa-bolt"></span> Flat Rate to New York</td>
-
-												<td><strong><span class="fa fa-usd"></span> 900</strong>
-												</td>
-											</tr>
-										</table>
-									</div>
-
-
-									<div class="col-md-6">
-										<p>We believe in fair pricing and we are always open to hear you out. We want to give you the best service at the best rates. We understand the customer very well before we work for you. Been in the business this long, we can easily chart out customized estimates according to your requirements.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="tab-pane fade" id="testimonials">
-						<div class="row">
-							<div class="col" style="font-family: &quot;Kelly Slab&quot;">
-								<h3 class="text-center" style="font-size:20px"><i class="fa fa-star fa-3x"></i><br>
-								Testimonials</h3>
-
-								<hr>
-
-
-								<div class="row">
-									<div class="col" style="display:block; font-family: &quot;Kelly Slab&quot;">
-										<?php require_once("dbconnect.php") ?>
-										<?php getData() ?>
-										<?php dispForm() ?>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--END-->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- FOOTER
-
-
-
-
-      -->
-
-
-	<div class="container text-center footer" style="font-family:'Kelly Slab'; font-weight:bold;">
-		<div class="footer-above container">
-			<div class="container">
-				<div class="row">
-					<div class="footer-col col-md-4">
-						<h3 class="lightTxt">CHECK US OUT</h3>
-
-						<hr>
-
-
-						<ul class="list-inline">
-							<li>
-								<a class="btn-social btn-outline" href="https://www.facebook.com/zulumoving"><i class="fa fa-fw fa-facebook"></i></a>
-							</li>
-
-
-							<li>
-								<a class="btn-social btn-outline" href="https://plus.google.com/100400948126936096675"><i class="fa fa-fw fa-google-plus"></i></a>
-							</li>
-						</ul>
-					</div>
-
-
-					<div class="footer-col col-md-4">
-						<ul style="color:black;">
-							<li>
-								<p id="logo22">Zulu Moving Company</p>
-
-								<hr>
-							</li>
-
-
-							<li>Lowell, Boston, Nashua, Weston, Franklin, Lexington, Westford, Amherst, Andover, Concord, Dracut, Newton, Westborough, Acton, Billerica</li>
-
-
-							<li style='color:brown'>New England. New Jersey. New Hampshire.</li>
-						</ul>
-					</div>
-
-
-					<div class="footer-col col-md-4">
-						<p style="background-color:"><strong>For any query, please email us on</strong>
-						</p>
-
-						<hr>
-						<strong><a href="mailto:customersupport@zulumoving.com" style="color:#259; font-style:italic;cursor:pointer">customersupport@zulumoving.com</a></strong>
-
-						<p>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="footer-below">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<strong style="font-family:'Kelly Slab'; font-weight:bold;">zulumoving.com, 2010 Copyright &copy;</strong>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="js/classie.js">
-	</script>
-	<script src="js/cbpAnimatedHeader.js">
-	</script>
-	<script src="js/jquery.js" type="text/javascript">
-	</script>
-	<script src="js/bootstrap.min.js" type="text/javascript">
-	</script>
-	<script src="js/tools.js">
-	</script>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <strong style="font-family:'Kelly Slab'; font-weight:bold;">zulumoving.com, 2010 Copyright &copy;
+                    </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/classie.js">
+    </script> 
+    <script src="js/cbpAnimatedHeader.js">
+    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript">
+    </script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript">
+    </script> 
+    <script src="js/tools.js">
+    </script>
 </body>
 </html>
